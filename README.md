@@ -12,7 +12,7 @@ This represents the student support code for the [Calculator task].
 
 This [work] by [Carsten Gips] and [contributors] is licensed under [MIT].
 
-  [Calculator task]: https://github.com/Programmiermethoden-CampusMinden/Prog2-Lecture/blob/master/homework/b04.md
+  [Calculator task]: https://github.com/Programmiermethoden-CampusMinden/Prog2-Lecture/tree/master/homework
   [work]: https://github.com/Programmiermethoden-CampusMinden/prog2_ybel_calculator
   [Carsten Gips]: https://github.com/cagix
   [contributors]: https://github.com/Programmiermethoden-CampusMinden/prog2_ybel_calculator/graphs/contributors
