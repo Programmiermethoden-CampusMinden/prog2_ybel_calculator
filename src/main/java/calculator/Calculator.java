@@ -111,14 +111,11 @@ public class Calculator extends JFrame {
         // button to trigger the calculation
         JButton solutionButton = new JButton("=");
         solutionButton.addActionListener(
-                new ActionListener() {
-                    @Override
-                    public void actionPerformed(ActionEvent e) {
-                        try {
-                            result.setText("" + calculate());
-                        } catch (NumberFormatException ex) {
-                            System.out.println("Invalid input.");
-                        }
+                e -> {
+                    try {
+                        result.setText("" + calculate());
+                    } catch (NumberFormatException ex) {
+                        System.out.println("Invalid input.");
                     }
                 });
         panel.add(solutionButton);
@@ -148,7 +145,7 @@ public class Calculator extends JFrame {
     }
 
     /** Tests the text field to verify whether an integer has been entered. */
-    private class JTextFieldVerifier extends InputVerifier {
+    private static class JTextFieldVerifier extends InputVerifier {
         private final JTextField tf;
 
         /**
